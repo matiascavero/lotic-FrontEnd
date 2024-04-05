@@ -1,0 +1,31 @@
+header{
+    background-image: url('../../../public/header-imgg.jpeg');
+    width: 1281px;
+    height: 726px;
+    color: white;
+    display: flex;
+
+}
+
+.div-header-text{
+display:flex;
+flex-direction: column;
+text-align: center;
+justify-content: end;
+margin-left: 17px;
+margin-bottom: 50px;
+}
+
+.span-div-text1{
+   font-size: 1.8em;
+   width: 400px;
+   margin-bottom: 20px;
+   
+    
+}
+
+.span-div-text2{
+ font-size: 1.2em;
+ width: 460px;
+
+}

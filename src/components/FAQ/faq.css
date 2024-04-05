@@ -1,0 +1,29 @@
+
+.div-faq-title{
+    text-align: start;
+    color: #134B8B;
+    margin: 30px 5px;
+}
+
+
+.div-faqs .div-question{
+    text-align: start;
+    margin-left: 70px;
+    
+}
+.div-faqs .div-question h3{
+    color: #DA4524;
+
+}
+.div-faqs .div-question ul{
+    color: black;
+    text-align: start;
+    
+
+}
+
+.class-hr {
+    border: none; /* Eliminar el borde por defecto */
+    height: 3px; /* Establecer la altura deseada */
+    background: linear-gradient(90deg, #4EA4C7, #DA4524); /* Cambiar el fondo a un degradado */
+}

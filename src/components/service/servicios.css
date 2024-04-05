@@ -1,0 +1,38 @@
+.div-section-servicios{
+display: flex;
+flex-direction: column;
+}
+.div-servicios-text{
+    text-align: start;
+   color: #134B8B;
+   margin: 30px 5px;
+}
+.div-container-servicios{
+ display: flex;
+}
+
+.div-servicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.div-servicio h4 {
+    max-height: 3em;
+    overflow: hidden; 
+    color: #134B8B;
+    font-size: 1.2em;
+}
+
+.h4-servicio-separador{
+    margin-bottom: 50px;
+}
+img{
+    width: 300px;
+    height: 295px;
+}
+p{
+    color: black;
+}
