@@ -27,3 +27,26 @@
     height: 3px; /* Establecer la altura deseada */
     background: linear-gradient(90deg, #4EA4C7, #DA4524); /* Cambiar el fondo a un degradado */
 }
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 800px) {
+    
+}
+@media (max-width: 600px) {
+    
+}
+@media (max-width: 400px) {
+    .div-container-faq{
+        width: 300px;
+    }
+    .div-faqs .div-question{
+        text-align: start;
+        margin-left: 0px;
+        
+    }
+    .div-faq-title{
+        font-size: 0.9em;
+    }
+}

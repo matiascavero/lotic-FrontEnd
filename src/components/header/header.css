@@ -1,5 +1,7 @@
 header{
     background-image: url('../../../public/header-imgg.jpeg');
+    background-size: cover; /* Esto ajustará la imagen para cubrir todo el contenedor */
+    background-position: center;     
     width: 1281px;
     height: 726px;
     color: white;
@@ -27,5 +29,24 @@ margin-bottom: 50px;
 .span-div-text2{
  font-size: 1.2em;
  width: 460px;
+
+}
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 800px) {
+    
+}
+@media (max-width: 600px) {
+    
+}
+@media (max-width: 400px) {
+    header{
+        width: 300px;
+        height: 526px;
+        left: 0px;
+
+    }
+    
 
 }

@@ -7,12 +7,12 @@ import Faq from "./components/FAQ/Faq"
 const App = () =>{
     return(
      <div>
-        {/* <NavBar/>
-        <Footer/> 
+       {/* <NavBar/> */}
         <Header/>
         <Servicios/> 
         <Faq/>
-        */}
+        {/* <Footer/>  */}
+        
 
      </div>
     )
