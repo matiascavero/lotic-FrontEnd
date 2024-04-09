@@ -11,20 +11,20 @@ const Servicios = ()=>{
             </div>
             <div className='div-container-servicios'>
                <div className='div-servicio'>
-                   <img src="../../../public/personitas.jpeg" alt="imagen personas comunicandose" />
+                   <img src="../../personitas.jpeg" alt="imagen personas comunicandose" />
                    <h4>Asesoramiento en la elección de la prótesis auditiva </h4>
                    <p>Hay tantas dificultades auditivas como personas,
                      te ayudamos a encontrar la que se ajusta perfecto a tus 
                      necesidades y a tu presupuesto.</p>
                </div>
                <div className='div-servicio '>
-                   <img src="../../../public/prod.jpeg" alt="imagen audifonos" />
+                   <img src="../../prod.jpeg" alt="imagen audifonos" />
                    <h4 className='h4-servicio-separador'>Venta de equipos y accesorios</h4>
                    <p>Tenemos los modelos más nuevos que salen al mercado con una amplia gama
                      de accesorios para que tu experiencia auditiva sea única y rea</p>
                </div>
                <div className='div-servicio'>
-                   <img src="../../../public/manos.jpeg" alt="imagen manos" />
+                   <img src="../../manos.jpeg" alt="imagen manos" />
                    <h4  className='h4-servicio-separador'>Adaptación de la prótesis</h4>
                    <p>No te vamos a dejar solo, te capacitamos en su cuidado y uso, 
                     dejamos abierto un canal 

@@ -1,5 +1,5 @@
 header{
-    background-image: url('../../../public/header-imgg.jpeg');
+    background-image: url('../../../header-imgg.jpeg');
     background-size: cover; /* Esto ajustará la imagen para cubrir todo el contenedor */
     background-position: center;     
     width: 1281px;
@@ -42,11 +42,23 @@ margin-bottom: 50px;
 }
 @media (max-width: 400px) {
     header{
-        width: 300px;
-        height: 526px;
-        left: 0px;
+        width: 550px;
+        height: 426px;
+  
 
     }
+    .span-div-text1{
+        font-size: 1.4em;
+        width: 330px;
+        margin-bottom: 20px;
+        
+         
+     }
+     .span-div-text2{
+        font-size: 1.1em;
+        width: 380px;
+       
+       }
     
 
 }
