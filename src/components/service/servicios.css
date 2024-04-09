@@ -65,3 +65,21 @@ p{
         margin-bottom: 10px;
     }
 }
+@media (max-width: 320px) {
+    .div-servicios{
+        width: 290px;
+    }
+    .div-container-servicios{
+        display: flex;
+        flex-direction: column;
+       }
+       .div-servicios-text{
+        text-align: start;
+       color: #134B8B;
+       margin: 9px 4px;
+       font-size: 0.9em;
+    }
+    .h4-servicio-separador{
+        margin-bottom: 9px;
+    }
+}
