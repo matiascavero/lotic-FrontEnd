@@ -37,7 +37,7 @@
 @media (max-width: 600px) {
     
 }
-@media (max-width: 400px) {
+@media (width < 500px){
     .div-container-faq{
         width: 300px;
     }
