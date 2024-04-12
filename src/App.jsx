@@ -4,16 +4,19 @@ import React from 'react'
 import Header from "./components/header/Header"
 import Servicios from "./components/service/Servicios"
 import Faq from "./components/FAQ/Faq"
+import Contactanos from "./components/contactanos/Contactanos"
+import Conocenos from "./components/conocenos/Conocenos"
+
 const App = () =>{
     return(
      <div>
        <NavBar/>
         <Header/>
-        <Servicios/> 
+        <Servicios/>
         <Faq/>
-        <Footer/> 
-        
-
+        <Contactanos />
+        <Conocenos />
+        <Footer/>
      </div>
     )
 }
