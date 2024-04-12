@@ -31,8 +31,10 @@ margin-bottom: 50px;
  width: 460px;
 
 }
-@media (max-width: 1200px) {
-    
+@media (max-width: 2000px) {
+    header{
+        width: 100%;
+    }
 }
 @media (max-width: 800px) {
     
@@ -40,7 +42,7 @@ margin-bottom: 50px;
 @media (max-width: 600px) {
     
 }
-@media (max-width: 400px) {
+@media (width < 500px) {
     header{
         width: 550px;
         height: 426px;

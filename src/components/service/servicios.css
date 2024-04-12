@@ -47,7 +47,7 @@ p{
 @media (max-width: 600px) {
     
 }
-@media (max-width: 400px) {
+@media (width < 500px) {
     .div-servicios{
         width: 300px;
     }
@@ -65,7 +65,7 @@ p{
         margin-bottom: 10px;
     }
 }
-@media (max-width: 320px) {
+@media (width < 320px) {
     .div-servicios{
         width: 290px;
     }
