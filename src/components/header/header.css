@@ -40,12 +40,17 @@ margin-bottom: 50px;
     
 }
 @media (max-width: 600px) {
-    
-}
-@media (width < 500px) {
     header{
-        width: 550px;
-        height: 426px;
+        width: 580px;
+        height: 480px;
+  
+
+    }
+}
+@media (width < 480px) {
+    header{
+        width: 450px;
+        height: 400px;
   
 
     }

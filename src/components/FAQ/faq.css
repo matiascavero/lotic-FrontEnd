@@ -37,9 +37,9 @@
 @media (max-width: 600px) {
     
 }
-@media (width < 500px){
+@media (width < 480px){
     .div-container-faq{
-        width: 300px;
+        width: 100%;
     }
     .div-faqs .div-question{
         text-align: start;

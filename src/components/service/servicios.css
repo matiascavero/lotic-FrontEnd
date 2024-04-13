@@ -45,41 +45,30 @@ p{
     
 }
 @media (max-width: 600px) {
-    
-}
-@media (width < 500px) {
-    .div-servicios{
-        width: 300px;
-    }
     .div-container-servicios{
+         display: flex;
+        flex-direction: column;
+    }
+}
+@media (width < 480px) {
+    .div-servicios{
         display: flex;
         flex-direction: column;
+        
+       
+        width: 100%;
+    }
+    .div-container-servicios{
+       
+        font-size: 1.1em;
        }
        .div-servicios-text{
-        text-align: start;
-       color: #134B8B;
-       margin: 10px 5px;
-       font-size: 0.9em;
+        text-align: center;
+        color: #134B8B;
+        margin: 10px 5px;
+        font-size: 0.8em;
     }
     .h4-servicio-separador{
         margin-bottom: 10px;
-    }
-}
-@media (width < 320px) {
-    .div-servicios{
-        width: 290px;
-    }
-    .div-container-servicios{
-        display: flex;
-        flex-direction: column;
-       }
-       .div-servicios-text{
-        text-align: start;
-       color: #134B8B;
-       margin: 9px 4px;
-       font-size: 0.9em;
-    }
-    .h4-servicio-separador{
-        margin-bottom: 9px;
     }
 }
