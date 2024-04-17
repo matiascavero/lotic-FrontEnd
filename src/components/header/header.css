@@ -41,31 +41,40 @@ margin-bottom: 50px;
 }
 @media (max-width: 600px) {
     header{
-        width: 580px;
-        height: 480px;
+        width: 540px;
+        height: 440px;
   
 
     }
 }
 @media (width < 480px) {
     header{
-        width: 450px;
-        height: 400px;
+        width: 380px;
+        height: 300px;
+        margin-left: 9px;
+        
   
 
     }
     .span-div-text1{
-        font-size: 1.4em;
-        width: 330px;
+        font-size: 1.1em;
+        width: 260px;
         margin-bottom: 20px;
         
          
      }
      .span-div-text2{
-        font-size: 1.1em;
-        width: 380px;
+        font-size: 0.8em;
+        width: 260px;
        
        }
     
 
 }
+@media (width < 400px) {
+    header{
+        width: 330px;
+        height: 240px;
+  
+
+    }}

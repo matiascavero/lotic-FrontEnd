@@ -39,7 +39,9 @@
 }
 @media (width < 480px){
     .div-container-faq{
-        width: 100%;
+        margin-left: 5px;
+        width: 98%;
+        font-size: 0.9em;
     }
     .div-faqs .div-question{
         text-align: start;
@@ -48,5 +50,10 @@
     }
     .div-faq-title{
         font-size: 0.9em;
+    }
+}
+@media (width < 400px) {
+    .div-container-faq{
+        width: 98%;
     }
 }
