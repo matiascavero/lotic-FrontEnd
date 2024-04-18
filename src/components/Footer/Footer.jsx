@@ -1,13 +1,5 @@
 import React from 'react';
 import './footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
-import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
-
 
 const Footer = () => {
     return (
@@ -15,21 +7,21 @@ const Footer = () => {
             <div className='container__contact'>
                 <div className="footer__item">
                     <ul>
-                        <li><a href=""><FontAwesomeIcon icon={faPhoneVolume} size='lg' style={{color: "#f17533",}} /> +54 9 12345678</a></li>
-                        <li><a href=""><FontAwesomeIcon icon={faFacebookF} size='lg' style={{color: "#f17533",}} /> /iotictecnologiaauditiva</a></li>
-                        <li><a href=""><FontAwesomeIcon icon={faSquareInstagram} size='lg' style={{color: "#f17533",}} /> @iotic</a></li>
+                        <li><a href=""><img src="./icons/logo-tlf.png" alt="phone" className='logo'/ > +54 9 12345678</a></li>
+                        <li><a href=""><img src="./icons/logo-fb.png" alt="facebook" className='logo'/ > /iotictecnologiaauditiva</a></li>
+                        <li><a href=""><img src="./icons/logo-ig.png" alt="instagram" className='logo'/ > @ioticaudiologia</a></li>
                     </ul>
                 </div>
                 <div className="footer__item">
                     <ul>
-                        <li><a href=""><FontAwesomeIcon icon={faSquareWhatsapp} size='lg' style={{color: "#f17533",}} /> +54 9 12345678</a></li>
-                        <li><a href=""><FontAwesomeIcon icon={faEnvelope} size='lg' style={{color: "#f17533",}} /> ioticta@gmail.com</a></li>
+                        <li><a href=""><img src="./icons/logo-wpp.png" alt="whatsapp" className='logo'/ > +54 9 (223)355-5673 </a></li>
+                        <li><a href=""><img src="./icons/logo-mail.png" alt="email" className='logo'/ > iotictaudicion@gmail.com</a></li>
                     </ul>
                 </div>
                 <div className="footer__item"></div>
                 <div className="footer__item">
                     <ul>
-                        <li><a href=""><FontAwesomeIcon icon={faLocationDot} size='lg' style={{color: "#f17533",}} /> Direccion 123, Barrio 4, Ciudad, Argentina</a></li>
+                        <li><a href=""><img src="./icons/logo-ubicacion.png" alt="map" className='logo'/ > Almte. Brown 3566, Mar del Plata, Provincia de Buenos Aires</a></li>
                     </ul>
                 </div>
             </div>
