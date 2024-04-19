@@ -31,14 +31,17 @@ margin-bottom: 50px;
  width: 460px;
 
 }
-@media (max-width: 2000px) {
+@media (width <2500px) {
     header{
         width: 100%;
     }
 }
-@media (max-width: 800px) {
-    
+@media (width <2000px) {
+    header{
+        width: 100%;
+    }
 }
+
 @media (max-width: 600px) {
     header{
         width: 540px;
