@@ -1,11 +1,60 @@
 .conocenos__title {
     text-align: start;
     color: #134B8B;
-    margin: 4rem 2rem 1rem 0.5rem;
+    margin: 4rem 2rem 4rem 0.5rem;
     font-size: 2rem;
 }
 
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .parrafo1 {
-    width: 45rem;
-    background-color: aquamarine;
+    width: 50%;
+    text-align: justify;
+}
+
+.parrafo2 {
+    text-align: justify;
+    margin-bottom: 5rem;
+}
+
+.parrafo3 {
+    text-align: justify;
+    font-weight: 600;
+    margin: 8rem 2rem 0 5rem;
+    color: #134B8B;
+    font-size: 2rem;
+}
+
+.img1 {
+    display: block;
+    width: 50%;
+    height: 25rem;
+    margin-right: 5rem;
+}
+
+.img2 {
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+.img5 {
+    display: block;
+    margin-top: 5rem;
+    width: 100%;
+    height: 10rem;
+
 }
