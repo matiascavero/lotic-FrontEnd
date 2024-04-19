@@ -14,9 +14,9 @@ const App = () =>{
         <Header/>
         <Servicios/>
         <Faq/>
-          {/* <Contactanos />
-        <Conocenos /> */}
-        {/* <Footer/>  */}
+        <Contactanos />
+        <Conocenos />
+        <Footer/>
 
       
        

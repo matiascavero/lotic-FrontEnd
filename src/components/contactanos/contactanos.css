@@ -7,6 +7,7 @@
 
 .container__contactanos {
     display: flex;
+    justify-content:space-around;
 
 }
 
@@ -40,16 +41,43 @@
 .contactanos__ubicacion a {
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     
 }
 
 .contactanos__ubicacion iframe {
+    border: 1px solid #134B8B;
     margin-top: 5rem;
     display: block;
     width: 700px;
     height: 400px;
 }
 
+@media (max-width: 1300px) {
+    .container__contactanos {
+        justify-content: space-evenly;
+    }
+    .contactanos__ubicacion iframe {
+        width: 500px;
+        height: 400px;
+    }
+    .contactanos__ubicacion a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .contactanos__ubicacion iframe {
+        width: 400px;
+        height: 300px;
+    }
+    .contactanos__ubicacion a {
+        font-size: 0.75rem;
+    }
+    .contactanos__item ul li a {
+        font-size: 1rem;
+    }
+}
