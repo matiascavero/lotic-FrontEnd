@@ -10,7 +10,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const Contactanos = () => {
 	return (
-		<>
+		<div id='contactanos'>
 			<h2 className='contactanos__title'>Contáctanos</h2>
 			<div className='container__contactanos'>
 				<div className="contactanos__item">
@@ -28,7 +28,7 @@ const Contactanos = () => {
 				</div>
 			</div>
 			<img className='bg4img' src="../../../public/bg4.png" alt="separador" />
-		</>
+		</div>
 	)
 }
 

@@ -6,30 +6,32 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
+    const ChangeMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
 
     return (
         <nav className="navbar">
             <div className="navbar__left">
-                <img src="../../../logo.jpeg" alt="Logo" className="navbar__logo" />
-                <span className="navbar__brand">TECNOLOGÍA AUDITIVA</span>
+                <a href='header'><img src="./logo-nav.png" alt="Logo" className="navbar__logo" /></a>
             </div>
 
-            <a className="icon__menu">
+            <a onClick={()=> ChangeMenu()} className='icon__menu'>
                 {
                     menuOpen ? (
-                        <FontAwesomeIcon icon={faTimes} size='2x' style={{color: "#f17533",}} /> 
+                        <FontAwesomeIcon icon={faTimes} size='2x' style={{color: "#f17533",}}/>
                     ) : (
-                        <FontAwesomeIcon icon={faBars} size='2x' style={{color: "#f17533",}} />
+                        <FontAwesomeIcon icon={faBars} size='2x' style={{color: "#f17533",}}/>
                     )
                 }
             </a>
             
             <div className="navbar__right">
-                <ul className="navbar__links">
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Preguntas frecuentes</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Contáctanos</a></li>
+                <ul className={menuOpen ? "navBar__links__open" : "navbar__links"}>
+                    <li><a href='#productos' className='nav__link'>Productos</a></li>
+                    <li><a href='#faq' className='nav__link'>Preguntas frecuentes</a></li>
+                    <li><a href='#conocenos' className='nav__link'>Sobre nosotros</a></li>
+                    <li><a href='#contactanos' className='nav__link'>Contáctanos</a></li>
                 </ul>
             </div>
         </nav>

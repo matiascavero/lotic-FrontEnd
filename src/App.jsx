@@ -6,24 +6,27 @@ import Servicios from "./components/service/Servicios"
 import Faq from "./components/FAQ/Faq"
 import Contactanos from "./components/contactanos/Contactanos"
 import Conocenos from "./components/conocenos/Conocenos"
+import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 const App = () =>{
     return(
-     <div>
-        <NavBar/>
-        <Header/>
-        <Servicios/>
-        <Faq/>
-        <Contactanos />
-        <Conocenos />
-        <Footer/>
 
-      
-       
+        <>
 
-     </div>
+                <NavBar/>
+                <Header/>
+                <Servicios/>
+                <Faq/>
+                <Contactanos/>
+                <Conocenos/>
+                <Footer/>
+                <WhatsAppButton/>
+
+        </>
     )
 }
 
 
 export default App
+                    

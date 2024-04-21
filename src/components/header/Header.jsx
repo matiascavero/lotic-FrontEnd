@@ -3,7 +3,7 @@ import React from "react"
 
 const Header = ()=>{
     return(
-        <header>
+        <header id='header'>
               <div className='div-header-text'>
                 <span className='span-div-text1'>
                     <b>Escucha cada momento con nitidez y comodidad.</b>

@@ -3,7 +3,7 @@ import "./faq.css";
 
 const Faq = () => {
   return (
-    <div className="div-container-faq">
+    <div className="div-container-faq" id="faq">
       <div className="div-faq-title">
         <h1>Preguntas frecuentes que nos encontramos</h1>
       </div>

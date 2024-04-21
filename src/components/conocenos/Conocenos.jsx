@@ -3,7 +3,7 @@ import "./conocenos.css"
 
 const Conocenos = () => {
   return (
-    <> 
+    <div id='conocenos'> 
       <h2 className='conocenos__title'>Conocenos</h2>
       <div className='container__conocenos'>
         <div className='container1'>
@@ -29,7 +29,7 @@ const Conocenos = () => {
         </div>
       </div>
       <img className='img5' src="../../../public/bg5.png" alt="img5" />
-    </>
+    </div>
   )
 }
 
