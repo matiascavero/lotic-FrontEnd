@@ -1,0 +1,110 @@
+[
+    {
+        "title" : "Maxi B-R",
+        "description" : ["Ion-litio - pila", "Pulsador", "Bluetooth"],
+        "photo" : "./products/maxi1.png",
+        "family": "Maxi Blu"
+    },
+    {
+        "title" : "Maxi B-RT",
+        "description" : ["Ion-litio - pila", "Pulsador", "Telebobina", "Bluetooth"],
+        "photo" : "./products/maxi2.png",
+        "family": "Maxi Blu"
+    },
+    {
+        "title" : "Maxi B-312",
+        "description" : ["312 - pila", "Pulsador", "Bluetooth"],
+        "photo" : "./products/maxi3.png",
+        "family": "Maxi Blu"
+    },
+    {
+        "title" : "Stride B-UP",
+        "description" : ["675 - pila", "Pulsador", "Telebobina", "Bluetooth"],
+        "photo" : "./products/stride1.png",
+        "family": "Stride"
+    },
+    {
+        "title" : "Stride PR",
+        "description" : ["Ion-litio - pila", "Pulsador", "Telebobina", "Bluetooth"],
+        "photo" : "./products/stride2.png",
+        "family": "Stride"
+    },
+    {
+        "title" : "Insera B-312",
+        "description" : ["312 - pila", "Pulsador", "Bluetooth"],
+        "photo" : "./products/insera1.png",
+        "family": "Insera"
+    },
+    {
+        "title" : "Maxi V-R",
+        "description" : ["312 - pila", "Pulsador", "Telebobina"],
+        "photo" : "./products/insera2.png",
+        "family": "Insera"
+    },
+    {
+        "title" : "Maxi Move R",
+        "description" : ["10 - pila", "Pulsador", "Telebobina"],
+        "photo" : "./products/insera3.png",
+        "family": "Insera"
+    },
+    {
+        "title" : "Maxi V-R/RT cargador",
+        "description" : "Cargador de nuevo diseño con una función de inserción y extracción magnética que facilita la inserción y extracción de los audífonos",
+        "photo" : "./products/accesorio1.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "Maxi R cargador",
+        "description" : "Compatible con los audífonos recargables Maxi Li-ion en las plataformas anteriores a Vivante",
+        "photo" : "./products/accesorio2.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "Base de carga portátil",
+        "description" : "Carga adicional a los productos recargables Maxi sin necesidad de enchufar el cargador a una toma de corriente",
+        "photo" : "./products/accesorio3.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "Cargador Stride PR",
+        "description" : "Cargador para audífnos Stride PR",
+        "photo" : "./products/accesorio4.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "Cargador Stride PR",
+        "description" : "Cargador para audífnos Stride PR. Compatible con la base de carga portátil",
+        "photo" : "./products/accesorio5.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "PartnerMic",
+        "description" : "Micrófono que se lleva puesto en la solapa para conversaciones con otra persona en entornos con ruido y que transmite el habla directamente a los audífonos",
+        "photo" : "./products/accesorio6.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "Remote Control",
+        "description" : "Permite ajustar directamente el volumen y cambiar de programa cuando prefiera",
+        "photo" : "./products/accesorio7.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "TV Connector",
+        "description" : "Para ver los programas y películas favoritos con sonido estéreo de alta calidad conectando de forma inalámbrica sus audífonos al televisor o a otros dispositivos multimedia",
+        "photo" : "./products/accesorio8.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "Mando distancia IIC",
+        "description" : "Con este diminuto mando a distancia puede ajustar cómodamente  el volumen y cambiar de programa. Compatible solo con factor de forma IIC",
+        "photo" : "./products/accesorio9.png",
+        "family": "Accesorios"
+    },
+    {
+        "title" : "App Remote Plus",
+        "description" : "Con esta aplicación Remote Plus, tendrá al alcance de su mano la posibilidad de realizar una sensilla personalización.",
+        "photo" : "./products/accesorio9.png",
+        "family": "Accesorios"
+    }
+]

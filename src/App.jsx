@@ -7,7 +7,7 @@ import Faq from "./components/FAQ/Faq"
 import Contactanos from "./components/contactanos/Contactanos"
 import Conocenos from "./components/conocenos/Conocenos"
 import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Productos from "./components/Productos/Productos"
 
 const App = () =>{
     return(
@@ -16,6 +16,7 @@ const App = () =>{
 
                 <NavBar/>
                 <Header/>
+
                 <Servicios/>
                 <Faq/>
                 <Contactanos/>
